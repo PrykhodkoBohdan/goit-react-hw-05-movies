@@ -1,0 +1,29 @@
+.list {
+    list-style: none;
+    display: flex;
+    border-bottom: 1px solid gray;
+    box-shadow: 0px 6px 2px 1px rgba(0, 0, 0, 0.453);
+  }
+  
+  .item {
+    margin-right: 20px;
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+  
+  .link:hover,
+  .link:focus {
+    text-decoration: underline;
+    outline: none;
+  }
+  
+  .link.active {
+    color: green;
+    font-size: 200px;
+  }
+  
+  [aria-current] {
+    color: green;
+  }
