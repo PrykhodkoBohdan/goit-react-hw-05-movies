@@ -1,0 +1,14 @@
+.input {
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .input:focus {
+    border: 5px solid black;
+    outline: none;
+  }
+  
+  .buttonSearch {
+    font-size: 30px;
+  }
